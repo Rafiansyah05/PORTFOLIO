@@ -1,0 +1,218 @@
+/* .jumbotron {
+} */
+
+.nav-link:hover {
+  color: white;
+  background-color: rgb(0, 204, 136);
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: rgb(0, 204, 136);
+}
+
+.nav-link {
+  color: rgb(0, 204, 136);
+  padding: 2pc, 1pc;
+}
+
+.hello {
+  font-size: 13px;
+  color: rgb(68, 68, 68);
+  margin-top: 12pc;
+}
+
+.nama {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(65, 65, 65);
+}
+
+span {
+  color: rgb(0, 204, 136);
+}
+
+.desk {
+  color: rgb(121, 121, 121);
+}
+
+.download {
+  margin-top: 2pc;
+  padding: 14px;
+  background-color: rgb(0, 204, 136);
+  color: white;
+  font-weight: bold;
+  border-radius: 2pc;
+  padding: 20px;
+  width: 200px;
+}
+
+img {
+  margin-top: 6pc;
+  margin-left: 6pc;
+  height: 500px;
+  width: 500px;
+}
+
+main {
+  background-color: rgb(0, 204, 136);
+}
+
+.aboutText {
+  margin-top: 3pc;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(216, 216, 216);
+}
+
+section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kolom {
+  background-color: rgb(0, 204, 136);
+  color: white;
+  border: 0;
+  padding: 2pc;
+  border-radius: 1pc;
+  align-items: center;
+  margin-left: 2pc;
+  margin-top: 2pc;
+}
+
+.projectText {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 204, 136);
+  margin-top: 3pc;
+}
+
+.judul {
+  font-weight: bold;
+}
+
+.isi {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lihat {
+  padding: 14px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 204, 136);
+  font-weight: bold;
+  width: 200px;
+  border-radius: 1pc;
+}
+
+header {
+  background-color: rgb(0, 204, 136);
+  padding: 2pc;
+  margin-top: 5pc;
+}
+
+.contactText {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 3pc;
+}
+
+.info {
+  font-size: 13px;
+  color: rgb(94, 94, 94);
+  font-weight: bold;
+}
+
+.kirim {
+  margin-top: 2pc;
+  background-color: rgb(99, 99, 99);
+  color: rgb(0, 204, 136);
+  font-weight: bold;
+  border-radius: 1pc;
+  padding: 8px;
+  /* width: 150px; */
+}
+
+#inputNama {
+  border-radius: 1pc;
+}
+#inputEmail {
+  border-radius: 1pc;
+}
+#inputPesan {
+  border-radius: 1pc;
+}
+
+.colum {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+label {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+  color: white;
+}
+
+footer {
+  background-color: rgb(44, 44, 44);
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
+.akhir {
+  display: inline-block;
+  padding: 6px;
+  color: rgb(187, 187, 187);
+}
+
+a .icont {
+  color: rgb(187, 187, 187);
+}
+/* MEDIA */
+/* MEDIA */
+/* MEDIA */
+/* MEDIA */
+
+@media (max-width: 500px) {
+  img {
+    margin-top: 7pc;
+    height: 323px;
+    width: 323px;
+    margin-left: 0;
+  }
+
+  .kolom {
+    margin-left: 60px;
+    /* margin-right: 100px; */
+  }
+
+  .tl {
+    padding-left: 20px;
+  }
+
+  .download {
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .kolom {
+    margin-left: 35px;
+    margin-right: 30px;
+  }
+}
